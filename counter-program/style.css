@@ -1,0 +1,20 @@
+.container{
+    text-align: center;
+}
+#counter-element{
+    font-size: 10em;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+}
+.container button{
+    background-color:hsl(240, 100%, 80%);
+    font-size: 1.5em;
+    bottom: 5px;
+    padding: 15px 32px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    cursor : pointer;
+}
+.container button:hover{
+    background-color: hsl(240, 100%, 60%);
+}
