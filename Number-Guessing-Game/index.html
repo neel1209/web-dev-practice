@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Guess a Number 🤔</h1>
+    <h2>Guess a random number between</h2>
+    <input type="number" value="1" id="minNumber">
+    <input type="number" value="100" id="maxNumber">
+    <button id="reset">New Target Number</button>
+    <h4 id="numberRangeStatement">Number has been selected between 1 and 100</h4>
+    <h2>Enter a Number and press Guess</h2>
+    <input type="number" id="guessNumber">
+    <button id="guess">Guess</button>
+    <h4 id="hint"></h4>
+    </div>
+    <br><br><br>
+    <div class="instructions">
+    <h3 class="instruct">Instructions</h3>
+    <ul>
+        <li>Enter the range of numbers you want the target number to be between, and press New Target</li>
+        <li>Enter your guess</li>
+        <li>See if your guess is too high or too low</li>
+        <li>Change your guess</li>
+        <li>The app will tell you when you are right, and how many guesses you had</li>
+    </ul>
+    </div>
+</body>
+</html>
