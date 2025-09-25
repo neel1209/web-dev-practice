@@ -11,6 +11,9 @@ Users enter a range (min & max), the app randomly generates a number, and the pl
 	•	Reset option to start a new game.
 	•	Clean and responsive UI.
 
+🔗 Live Demo
+
+Play the game here: [Live Demo](https://neel1209.github.io/web-dev-practice/Number-Guessing-Game/)
 
 📸 Screenshot
 
