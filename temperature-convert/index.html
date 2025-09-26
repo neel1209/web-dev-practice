@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://pixabay.com/get/g6228cf663dffc375e4addb6dda8a84ab6d042a61845119f3aee4524e72c97a7ea65213218e66b8e779c8c5af30e999b5_1280.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature-Converter</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form>
+        <h1>Temperature Converter</h1>
+        <div class="from">
+            <h2>From</h2>
+            <input id="inputtext" type="text"><br>
+            <h3 id="inputWarning" hidden></h3>
+            <input type="radio" name="from" id="fromcelsius" value ="celsius">
+            <label for="fromcelsius">Celsius (°C)</label>
+            <input type="radio" name="from" id="fromfahrenheit" value="fahrenheit">
+            <label for="fromfahrenheit">Fahrenheit (°F)</label>
+            <input type="radio" name="from" id="fromkelvin" value="kelvin">
+            <label for="fromkelvin">Kelvin (K)</label>
+            <h3  id="fromWarning" hidden></h3>
+        </div>
+        <div class="to">
+            <h2>To</h2>
+            <input type="radio" name="to" id="tocelsius" value ="celsius">
+            <label for="tocelsius">Celsius (°C)</label>
+            <input type="radio" name="to" id="tofahrenheit" value="fahrenheit">
+            <label for="tofahrenheit">Fahrenheit (°F)</label>
+            <input type="radio" name="to" id="tokelvin" value="kelvin">
+            <label for="tokelvin">Kelvin (K)</label>
+            <h3 id ="toWarning" hidden></h3>
+            <h3 id="result" hidden></h3>
+        </div>
+        <button id="convertbtn">Convert</button>
+
+    </form>
+</body>
+</html>
