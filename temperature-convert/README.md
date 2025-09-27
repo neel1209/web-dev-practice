@@ -50,17 +50,17 @@ Try it out here 👉 [Temperature Converter - Live Demo](https://neel1209.github
 
 3.	Run the project by opening index.html in your browser.
 
-✅Example Usage
+## ✅Example Usage
 - Input: 100, From: Celsius, To: Fahrenheit
 Output: 212 °F
 - Input: 0, From: Kelvin, To: Celsius
 Output: -273.15 °C
 
-🤝 Contributing
+## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
 - Feel free to fork this repo and submit a pull request.
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
