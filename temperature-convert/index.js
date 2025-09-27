@@ -65,10 +65,10 @@ convertbtn.addEventListener('click', (e) =>{
                         result.textContent = `${inputValue.toFixed(2)} °C`;
                         break;
                     case "fahrenheit":
-                        result.textContent = `${((inputValue*(9/5))+32).toFixed(2)} °C`;
+                        result.textContent = `${((inputValue*(9/5))+32).toFixed(2)} °F`;
                         break;
                     case "kelvin":
-                        result.textContent = `${(inputValue + 273.15).toFixed(2)} °C`;
+                        result.textContent = `${(inputValue + 273.15).toFixed(2)} K`;
                         break;
                 }
                 break;
@@ -77,13 +77,13 @@ convertbtn.addEventListener('click', (e) =>{
             case "fahrenheit":
                 switch(toSelectedValue){
                     case "celsius":
-                        result.textContent = `${((inputValue - 32)*(5/9)).toFixed(2)} °F`;
+                        result.textContent = `${((inputValue - 32)*(5/9)).toFixed(2)} °C`;
                         break;
                     case "fahrenheit":
                         result.textContent = `${inputValue.toFixed(2)} °F`;
                         break;
                     case "kelvin":
-                        result.textContent = `${((inputValue - 32)*(5/9)+273.15).toFixed(2)} °F`;
+                        result.textContent = `${((inputValue - 32)*(5/9)+273.15).toFixed(2)} K`;
                         break;
                 }
                 break;
@@ -92,10 +92,10 @@ convertbtn.addEventListener('click', (e) =>{
             case "kelvin":
                 switch(toSelectedValue){
                     case "celsius":
-                        result.textContent = `${(inputValue - 273.15).toFixed(2)} K`;
+                        result.textContent = `${(inputValue - 273.15).toFixed(2)} °C`;
                         break;
                     case "fahrenheit":
-                         result.textContent = `${(((inputValue - 273.15)*(9/5))+32).toFixed(2)} K`;
+                         result.textContent = `${(((inputValue - 273.15)*(9/5))+32).toFixed(2)} °F`;
                         break;
                     case "kelvin":
                         result.textContent = `${inputValue.toFixed(2)} K`;
