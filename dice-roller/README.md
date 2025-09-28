@@ -49,7 +49,7 @@ Try it out here 👉 [Dice Roller - Live Demo](https://neel1209.github.io/web-de
 ---
 
 ## 📸 Screenshot
-![Screenshot](./screenshot.png) 
+![Screenshot](./assets/screenshot.png) 
 
 ---
 
